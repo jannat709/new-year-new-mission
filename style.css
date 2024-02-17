@@ -38,3 +38,55 @@
   color: white;
   transform: translate(-50%, -50%);
 }
+.discount-container{
+  text-align: center;
+  align-items:center ;
+}
+.discount-contant{
+  font-size: xx-large;
+}
+.dh{
+  color: #FF0000;
+  font-weight: 80px;
+}
+.dp{
+  color: #FF0000;
+  font-weight: 300;
+}
+.discount-img{
+  height: 100%;
+  width: 100%;
+}
+.midnight-container{
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 5%;
+}
+
+.inset-0{
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.midnight-content {
+  position: absolute;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.party-btn{
+  background-color:rgba(0, 0, 0, 0);
+  border: 0;
+  font-size: larger;
+  color: white;
+  padding: 10%;
+}
+.mn-h{
+  font-size: 60px;
+}
