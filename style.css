@@ -47,7 +47,7 @@
 }
 .dh{
   color: #FF0000;
-  font-weight: 80px;
+  font-weight: 100px;
 }
 .dp{
   color: #FF0000;
@@ -76,17 +76,66 @@
   position: absolute;
   display: flex;
   color: white;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 50px;
+  gap: 50px;
 }
 .party-btn{
   background-color:rgba(0, 0, 0, 0);
   border: 0;
-  font-size: larger;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: capitalize;
   color: white;
   padding: 10%;
+  
 }
 .mn-h{
-  font-size: 60px;
+  font-size: 80px;
+}
+.bdt{
+  text-align: center;
+}
+.pdt-content{
+  background-color: rgb(241, 219, 223);
+  border-radius: 5px;
+  padding: 5%;
+}
+.pdt-container{
+  display: flex;
+  justify-content:center ;
+}
+.pdt-btn{
+  background-color: #FF0000;
+  border: 0;
+  border-radius: 5px;
+  font-size: larger;
+  color: white;
+  padding: 10px 25px;
+}
+.bdt-color{
+  color: #FF0000;
+}
+.cs-h{
+ color: #FF0000;
+}
+.cs-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  font-weight: bolder;
+  font-weight:  900px;
+}
+.cs-img-border{
+  border: 15px solid red;
+  border-radius: 50%;
+  padding: 2%;
+}
+.cs-content{
+  padding: 5%;
+  justify-content: center;
+}
+.hs-container{
+  text-align: center;
+  padding-top: 50px;
 }
