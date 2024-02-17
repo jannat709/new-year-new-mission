@@ -195,3 +195,66 @@ p{
   gap: 15px;
   padding-top: 1%;
 }
+.gift-items:hover{
+  border: 5px solid black;
+  border-radius:8%;
+  height: 100%;
+}
+.mail{
+   padding: 1%;
+    border: 0;
+    border-radius: 20px 0 0 20px;
+    width: 25%;
+}
+.sub{
+  text-align: center;
+  background-color: rgb(241, 222, 225);
+  margin-top: 5%;
+  padding: 5%;
+}
+.btn-primary{
+  border-radius:0 20px 20px 0;
+  background-color: #FF0000;
+  color: white;
+  font-style: inherit;
+  border: 0;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.footer-container{
+  background-color: black;
+  margin-top: 5%;
+  text-align: left;
+}
+.fp{
+  color: white;
+}
+.foot{
+  justify-content: space-between;
+  display: flex;
+}
+.website{
+  display: flex;
+}
+.media{
+  padding: 5%;
+  padding-left: 40%;
+  align-items: center;
+}
+.underline{
+  border: 1px solid rgb(54, 50, 50);
+}
+.social{
+   display: flex;
+   gap: 5px;
+}
+.foot2{
+  display: flex;
+  justify-content: space-between;
+}
+.foot-content{
+  padding: 5%;
+}
